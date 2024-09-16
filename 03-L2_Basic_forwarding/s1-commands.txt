@@ -1,0 +1,6 @@
+simple_switch_CLI --thrift-port 9090
+table_set_default table_name drop
+table_add forward set_egress_specs 00:00:0a:00:00:01 => 1
+table_add forward set_egress_specs 00:00:0a:00:00:02 => 2
+table_add forward set_egress_specs 00:00:0a:00:00:03 => 3
+table_add forward set_egress_specs 00:00:0a:00:00:04 => 4
